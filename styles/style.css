@@ -142,5 +142,4 @@ main {
     pointer-events: none;
     margin: auto;
     height: 72%;
-    filter: drop-shadow(2px 1px 0 var(--light-blue));
 }
