@@ -112,7 +112,6 @@ main {
 
 .card {
     --size: calc(25% - 10px);
-    cursor: pointer;
     display: flex;
     width: var(--size);
     height: calc(20% - 10px);
@@ -122,6 +121,7 @@ main {
 }
 
 .hidden-card {
+    cursor: pointer;
     justify-content: center;
     align-items: center;
     background-color: var(--light-blue);
