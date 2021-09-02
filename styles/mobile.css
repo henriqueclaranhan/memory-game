@@ -1,0 +1,37 @@
+@media (max-width: 385px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .icon {
+        width: 75%;
+    }
+    .hidden-card span {
+        font-size: 40px;
+    }
+    footer span {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 385px) and (max-height: 655px) {
+    .card {
+        max-height: 75px;
+    }
+}
+
+@media (max-width: 548px) and (min-height: 500px) {
+    html,
+    body {
+        max-height: 100%;
+    }
+    main {
+        flex: 1;
+        max-height: 98%;
+    }
+    .icon {
+        height: 65%;
+    }
+}
