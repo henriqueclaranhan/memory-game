@@ -29,7 +29,6 @@
     }
     main {
         flex: 1;
-        max-height: 98%;
     }
     .icon {
         height: 65%;
