@@ -107,7 +107,7 @@ main {
     max-height: calc(90% - 2rem);
     padding: 4px;
     border-radius: 3px;
-    border: 3px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
 }
 
 .card {
@@ -117,6 +117,7 @@ main {
     height: calc(20% - 10px);
     border-radius: 1px;
     border: 2px solid var(--light-blue);
+    background-color: #2c2c31;
     transition: .4s all;
 }
 
