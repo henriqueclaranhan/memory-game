@@ -154,3 +154,12 @@ h3 {
     margin: auto;
     height: 72%;
 }
+
+@media (max-width: 504px) and (min-height: 568px) {
+    main {
+        height: 75%;
+    }
+    .icon {
+        height: 65%;
+    }
+}
