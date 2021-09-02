@@ -126,7 +126,7 @@ h3 {
     width: var(--size);
     height: calc(19% - 10px);
     border-radius: 1px;
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--green);
     background-color: #2c2c31;
     transition: .4s all;
 }
@@ -135,6 +135,7 @@ h3 {
     cursor: pointer;
     justify-content: center;
     align-items: center;
+    border: 1px solid var(--light-blue);
     background-color: var(--light-blue);
 }
 
