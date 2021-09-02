@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 :root {
     --black: #14161a;
+    --blue: #43c2e6;
     --light-blue: #61DAFB;
     --yellow: #FAC858;
     --red: #F5929E;
@@ -135,8 +136,8 @@ h3 {
     cursor: pointer;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--light-blue);
-    background-color: var(--light-blue);
+    border: 2px solid var(--blue);
+    background-color: var(--blue);
 }
 
 .hidden-card span {
