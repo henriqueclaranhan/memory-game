@@ -143,6 +143,8 @@ h3 {
 .hidden-card span {
     font-size: 50px;
     font-weight: 700;
+    color: var(--black);
+    letter-spacing: -2px;
     font-family: 'JetBrains Mono', monospace;
 }
 
