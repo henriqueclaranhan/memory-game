@@ -22,7 +22,6 @@ const checkChosenCards = (card1, card2) => {
 
 const toggleFlip = (card) => {
     card.classList.toggle('flip');
-
 }
 
 const handleAttempt = (card) => {
@@ -52,5 +51,6 @@ const startGame = () => {
 }
 
 window.onload = () => {
+    generateCards();
     startGame();
 }
