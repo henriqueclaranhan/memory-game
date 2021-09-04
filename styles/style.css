@@ -107,7 +107,7 @@ main {
     max-width: 850px;
     max-height: calc(90% - 4rem);
     padding: 4px;
-    filter: drop-shadow(0 0 10px #2e2f2fc9);
+    filter: drop-shadow(0 0 5px #2e2f2f9d);
 }
 
 h3 {
