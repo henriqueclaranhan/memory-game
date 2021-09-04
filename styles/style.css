@@ -107,8 +107,7 @@ main {
     max-width: 850px;
     max-height: calc(90% - 4rem);
     padding: 4px;
-    border-radius: 3px;
-    border: 1px solid var(--light-blue);
+    filter: drop-shadow(0 0 10px #2e2f2fc9);
 }
 
 h3 {
@@ -135,13 +134,13 @@ h3 {
     height: 100%;
     transition: .4s all;
     border-radius: 1px;
+    border: 2px solid var(--blue);
     backface-visibility: hidden;
 }
 
 .visible-card {
-    border: 1px solid var(--green);
-    background-color: #2c2c31;
     transform: rotateY(180deg);
+    background-color: #2c2c31a8;
 }
 
 .hidden-card {
@@ -149,8 +148,7 @@ h3 {
     cursor: pointer;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--blue);
-    background-color: var(--blue);
+    background-color: #2c2f2f4b;
 }
 
 .flip {
@@ -160,15 +158,18 @@ h3 {
 .hidden-card span {
     font-size: 50px;
     font-weight: 700;
-    color: var(--black);
+    color: var(--light-blue);
     text-shadow: #4141416b 0 0 5px;
     letter-spacing: -2px;
     font-family: 'JetBrains Mono', monospace;
 }
 
 .hidden-card:hover {
-    border-color: var(--green);
-    background-color: var(--green);
+    background-color: var(--blue);
+}
+
+.hidden-card:hover span {
+    color: var(--black);
 }
 
 .icon {
