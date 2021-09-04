@@ -14,7 +14,7 @@ const checkChosenCards = (card1, card2) => {
             toggleFlip(card2);
 
             canFlipCards = true;
-        }, 1185);
+        }, 1080);
     } else {
         canFlipCards = true;
     }
