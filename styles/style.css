@@ -161,6 +161,7 @@ h3 {
     font-size: 50px;
     font-weight: 700;
     color: var(--black);
+    text-shadow: #4141416b 0 0 5px;
     letter-spacing: -2px;
     font-family: 'JetBrains Mono', monospace;
 }
