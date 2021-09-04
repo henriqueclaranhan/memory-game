@@ -50,15 +50,39 @@ const handleAttempt = (card) => {
     }
 }
 
+const showCards = () => {
+    setTimeout(() => {
+        cards.forEach(card => {
+            toggleFlip(card);
+        });
+    }, 400);
+}
+
+const hideCards = () => {
+    setTimeout(() => {
+        cards.forEach(card => {
+            toggleFlip(card);
+        });
+    }, 1500);
+}
+
+const startClickDetection = () => {
+    setTimeout(() => {
+        cards.forEach(card => {
+            card.addEventListener("click", () => {
+                handleAttempt(card);
+            }, false)
+        });
+    }, 1600);
+}
+
 const startGame = () => {
     remainingAttemptsSpan.innerHTML = remainingAttempts;
 
-    // Detect click on cards
-    cards.forEach(card => {
-        card.addEventListener("click", () => {
-            handleAttempt(card);
-        }, false)
-    });
+    showCards();
+    hideCards();
+
+    startClickDetection();
 }
 
 window.onload = () => {
